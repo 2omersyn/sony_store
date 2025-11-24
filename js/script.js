@@ -153,7 +153,7 @@ document.fonts.ready.then(() => {
             const timeline = gsap.timeline({ paused: true });
 
             timeline.from(self.lines, {
-                duration: 0.6,
+                duration: 2.0,
                 yPercent: 100,
                 opacity: 0,
                 stagger: 0.1,
@@ -179,7 +179,7 @@ document.fonts.ready.then(() => {
             const timeline = gsap.timeline({ paused: true });
 
             timeline.from(self.lines, {
-                duration: 0.6,
+                duration: 2.0,
                 yPercent: 100,
                 opacity: 0,
                 stagger: 0.1,
@@ -279,6 +279,7 @@ const mouseFllower = document.querySelector('.mouse_follwer');
         requestAnimationFrame(tracking);
     })();
 })
+
 
 
 
