@@ -632,16 +632,16 @@ body{ font-family: "Pretendard", sans-serif; background-color: #fff; color: #191
     #new_content2>.content_1>.content_header{ 
         max-width: 330px; margin: 50px auto;  align-items: flex-start; text-align:left;}
     #new_content2>.content_1>.content_header>strong{ font-size: 16px; line-height: 24px; margin-bottom: 15px; }
-    #new_content2>.content_1>.content_header>p{ font-size: 13px; line-height: 20px; } /*  mobile에서만 br 없애려면?  */
+    #new_content2>.content_1>.content_header>p{ font-size: 13px; line-height: 20px; } 
     #new_content2>.content_1>.video{ width: 390px; height: 220px;  object-fit: contain; }
         
     #new_content2>.content_2{ 
         max-width: 330px; margin: 0 auto; width: 100%;  display: flex; 
         flex-direction: column; align-items: flex-start; }
-    #new_content2>.content_2>.headphone_img{  width: auto; height: auto; margin-bottom: 20px; }
+    #new_content2>.content_2>.headphone_img{  width: auto; height: auto; margin-bottom: 20px; margin-right: 0;}
     #new_content2>.content_2>.headphone_img>img{ width: auto; height: auto;  object-fit: contain; display: block;  }
-    #new_content2>.content_2>.info>strong{margin-top:5px; font-size: 16px; line-height: 24px; margin-bottom: 15px;}
-    #new_content2>.content_2>.info>p{ font-size: 12px; line-height: 20px; margin-bottom: 30px; } /*  mobile에서만 br 없애려면?  */
+    #new_content2>.content_2>.info>strong{margin-top:0; font-size: 16px; line-height: 24px; margin-bottom: 20px;}
+    #new_content2>.content_2>.info>p{ font-size: 12px; line-height: 20px; margin-bottom: 40px; } 
     #new_content2>.content_2>.info>a{ margin-left: 0; width: 100px; height: 40px;  font-size: 12px; font-weight: 500; }
     #new_content2>.content_1>.content_header>p br,
     #new_content2>.content_2>.info>p br { display: none; /* br 제거 효과 */}
@@ -769,3 +769,4 @@ body{ font-family: "Pretendard", sans-serif; background-color: #fff; color: #191
     .mobile{   display:block !important;   }
     .desktop, .tablet{  display:none !important;  }
 }
+
