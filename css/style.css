@@ -146,7 +146,7 @@ body{ font-family: "Pretendard", sans-serif; background-color: #fff; color: #191
     display: flex; flex-direction: column; align-items: center;  text-align: center;
     margin: 150px 0 50px 0;}
 #new_content2>.content_1>.content_header>strong{ font-size: 55px; line-height: 65px; margin-bottom: 40px; color: #191919;}
-#new_content2>.content_1>.content_header>p{ font-size: 23px; line-height: 35px; color: #5b5b5b;}
+#new_content2>.content_1>.content_header>p{ font-size: 23px; line-height: 35px; color: #191919;}
 #new_content2>.content_1>.video{ width: 1570px; height: 883px;}
 #new_content2>.content_2{ 
     width: 100%;  display: flex; justify-content: space-between; align-items: flex-start; }
@@ -769,4 +769,5 @@ body{ font-family: "Pretendard", sans-serif; background-color: #fff; color: #191
     .mobile{   display:block !important;   }
     .desktop, .tablet{  display:none !important;  }
 }
+
 
