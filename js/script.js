@@ -90,7 +90,7 @@ var swiper = new Swiper("#swiper1", {
     loop: true,
     centeredSlides: true,
     autoplay: {
-    delay: 4500,
+    delay: 3500,
     disableOnInteraction: false
     },
     pagination: {
@@ -279,5 +279,6 @@ const mouseFllower = document.querySelector('.mouse_follwer');
         requestAnimationFrame(tracking);
     })();
 })
+
 
 
